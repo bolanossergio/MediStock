@@ -266,3 +266,113 @@ form h2 {
         font-size: 34px;
     }
 }
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 15px;
+        min-height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        /* Permite hacer scroll */
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .registro-container {
+        width: 100%;
+        max-width: 410px;
+        margin: 0 auto 20px;
+        border-radius: 22px;
+        overflow: visible; /* IMPORTANTE */
+    }
+
+    /* =========================
+       ENCABEZADO
+    ========================== */
+
+    .registro-header {
+        position: relative;
+        padding: 20px 20px 28px;
+        text-align: center;
+        border-radius: 22px 22px 0 0;
+    }
+
+    /* LOGO MÁS PEQUEÑO */
+    .registro-header img,
+    .logo,
+    .logo-registro {
+        width: 115px !important;
+        height: auto !important;
+        max-width: 115px !important;
+        margin: 10px auto 12px;
+        display: block;
+    }
+
+    /* VOLVER AL INICIO */
+    .volver-inicio {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+
+        font-size: 14px;
+        z-index: 10;
+    }
+
+    .registro-header h1,
+    .logo-section h1 {
+        font-size: 30px;
+        margin: 5px 0 8px;
+    }
+
+    .registro-header p,
+    .logo-section p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin: 0 auto;
+    }
+
+
+
+    .registro-form {
+        padding: 28px 25px 30px;
+        border-radius: 0 0 22px 22px;
+    }
+
+    .registro-form h2 {
+        font-size: 28px;
+        margin: 0 0 12px;
+    }
+
+    .input-group {
+        margin-bottom: 12px;
+    }
+
+    .input-group input {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+
+    /* CHECKBOX */
+    .terminos {
+        margin: 10px 0 15px;
+        font-size: 13px;
+    }
+
+
+    /* BOTÓN */
+    .btn-registro {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+    }
+
+}
