@@ -321,8 +321,8 @@ a:hover{
 
     .left .volver-inicio {
         position: absolute;
-        top: 15px;
-        left: 15px;
+        top: 3px;
+        left: 25px;
         font-size: 13px;
     }
 
